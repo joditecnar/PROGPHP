@@ -1,54 +1,50 @@
 <?php
-
-//variable numerica
+//variable numerica//
 $numero = 5 ;
 
 echo " <h2> Esta es una variable numerica: $numero </h2> ";
-
-
+var_dump ($numero);
 echo "<br><br>";
 
-//variable tipo string o de texto
-
+//variable tipo string o de texto//
 $palabra = "Unitecnar";
 
 echo " <h2>Esta es una variable de tipo texto: $palabra </h2>";
-
+var_dump ($palabra);
 echo "<br><br>";
 
-//variable tipo Boleana
-
+//variable tipo Boleana//
 $boleana = true;
-echo "<h2>Esta es una variable boleana verdadera: $boleana</h2>";
 
+echo "<h2>Esta es una variable boleana verdadera: $boleana</h2>";
+var_dump ($boleana);
 echo "<br><br>";
 
 $boleana = false;
+
 echo " <h2>Esta es una variable boleana falsa: $boleana</h2>";
-
+var_dump ($boleana);
 echo "<br><br>";
 
-//variable de tipo arreglo
-
+//variable de tipo arreglo//
 $personas = array ("genero", "identificacion", "apellido", "nombre", "RH");
+
 echo "<h2> Esta es una variable de tipo arreglo: $personas[1]</h2>";
-
+var_dump ($personas);
 echo "<br><br>";
 
-//variable de tipo arreglo con propiedades
-
+//variable de tipo arreglo con propiedades//
 $carros = array ("carro1"=>"Mazda", "carro2"=>"Toyota", "carro3"=>"Volvo", "carro4"=>"Nissan");
+
 echo "<h2> Esta es una variable de tipo arreglo con propiedades: $carros[carro4]</h2>";
-
+var_dump ($carros);
 echo "<br><br>";
 
-//variable de tipo objeto
-
+//variable de tipo objeto//
 $frutas = (object) ["fruta1"=>"pera","fruta2"=>"manzana"];
+
 echo " <h2>Esta es una variable de tipo objecto: $frutas->fruta1 </h2>";
-
+var_dump ($frutas);
 echo "<br><br>";
-
-
 
 ?>
